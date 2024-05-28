@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ArrayService {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { // crdu
         ArrayUtils arrayUtils = new ArrayUtils();
 
         Scanner scanner = new Scanner(System.in);
@@ -32,9 +32,12 @@ public class ArrayService {
                     System.out.println("[이름 등록]");
                     newNames = new String[names.length + 1];
                     for(int i = 0; i < names.length; i++) {
+                        // i < names.length; names에 .length를 넣는이유는 newNames[i]로 옮기기 위해서
                         newNames[i] = names[i];
                     }
                     names = newNames;
+                    newNames = null;
+                    // 위에 코드를 쓰면 굳이 null코드를 따로 만들지 않아도 된다.
                     System.out.print("등록 할 이름: ");
                     names[names.length - 1] = scanner.nextLine();
                     System.out.println("등록 완료!");

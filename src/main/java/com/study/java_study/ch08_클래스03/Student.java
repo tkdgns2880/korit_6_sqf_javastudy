@@ -2,7 +2,7 @@ package com.study.java_study.ch08_클래스03;
 
 import com.study.java_study.ch07_클래스02.StudyB;
 
-public class Student {
+public class Student { // 메인의 참조 자료형.
     private int code;
     private String name;
     private int age;

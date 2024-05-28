@@ -44,12 +44,46 @@ public class Star {
            ***
           ****
          *****
+        */
 
+        for(int i = 1; i < 6; i++) {
+            for(int j = 5; j > 0; j--) {
+                if(i < j) {
+                    System.out.print(" ");
+                } else {
+                    System.out.print("*");
+                }
+            }
+            System.out.println();
+        }
+
+        /*
          *****
           ****
            ***
             **
              *
+         */
+        for(int i = 1; i < 6; i++) {
+            for(int j = 1; j < 6; j++) {
+                if(i > j) {
+                    System.out.print(" ");
+                } else {
+                    System.out.print("*");
+                }
+            }
+            System.out.println();
+        }
+        for(int i = 0; i < 5; i++) {
+            for(int j = 0; j < i; j++) {
+                System.out.print(" ");
+            }
+            for(int j = 0; j < 5 - i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        /*
 
              *
             ***
@@ -58,7 +92,6 @@ public class Star {
          *********
 
          */
-
 
         for(int i = 0; i < 5; i++) {
             for(int j = 0; j < 5 - 1 - i; j++) {
@@ -69,7 +102,6 @@ public class Star {
             }
             System.out.println();
         }
-
         System.out.println();
 
         for(int i = 0; i < 5; i++) {
@@ -81,9 +113,7 @@ public class Star {
             }
             System.out.println();
         }
-
         System.out.println();
-
 
         for(int i = 0; i < 5; i++) {
             for(int j = 0; j < 5 - 1 - i; j++) {

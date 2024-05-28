@@ -1,6 +1,6 @@
 package com.study.java_study.ch07_클래스02;
 
-public class StudyA {
+public class StudyA { // 증가, 감소 시키는 코드
     int num;
     int num2;
 
@@ -9,13 +9,13 @@ public class StudyA {
     // 2. 리턴 자료형이 없다.
     // 3. 생성자는 무조건 할당된 메모리의 주소를 리턴한다.
 
-    //NoArgsConstructor
+    // NoArgsConstructor
     StudyA() {
         System.out.println("스터디 에이 객체 생성");
     }
 
-    //AllArgsConstructor
-    StudyA(int num, int num2) {
+    // AllArgsConstructor
+    StudyA(int num, int num2) { // 생성자이면서 리턴자료형
         System.out.println("스터디 에이 객체 생성");
         this.num = num;
         this.num2 = num2;

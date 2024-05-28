@@ -5,7 +5,7 @@ public class 스위치 {
     public static void main(String[] args) {
         String grade = "A";
 
-        switch (grade) {
+        switch (grade) { // 원하는 코드를 찾을때 switch 를 활용하여 찾기.
             case "A":
                 System.out.println("A등급");
                 break;

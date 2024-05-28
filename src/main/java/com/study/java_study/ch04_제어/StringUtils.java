@@ -6,6 +6,8 @@ public class StringUtils {
         if(str == null) {
             return true;
         }
-        return str.equals("");
+        return str.equals("");  // null인 경우 true null이 아닌 경우 equals
+
     }
 }
+//  return str == null || str.equals("");
