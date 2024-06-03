@@ -21,6 +21,6 @@ public class StudentService {
         for(String name : names) {
             System.out.println(name);
         }
-        System.out.println();0
+        System.out.println();
     }
 }

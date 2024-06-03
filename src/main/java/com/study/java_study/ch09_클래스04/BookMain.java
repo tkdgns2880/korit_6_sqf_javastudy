@@ -6,7 +6,7 @@ public class BookMain {
 
         System.out.println("프로그램을 실행합니다.");
 
-        while (bookService.run()) {}
+        while (bookService.run()) {} // bookService.run() ture 여야 동작을 한다.
 
         System.out.println("프로그램을 종료합니다.");
 
