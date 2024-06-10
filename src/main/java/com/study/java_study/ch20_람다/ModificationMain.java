@@ -10,7 +10,7 @@ public class ModificationMain {
                 return newData;
             }
         };
-        Modification<String> m2 = new Modification() {
+        Modification<String> m2 = new Modification<>() {
             @Override
             public String modify(String oldData, String newData) {
                 return newData;
